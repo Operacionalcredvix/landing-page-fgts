@@ -53,18 +53,17 @@ body {
     width: auto;
 }
 
-.btn-whatsapp-header {
-    background-color: var(--whatsapp-green);
+.btn-cta-header {
+    background-color:  #20b056;
     color: var(--cor-branco);
-    padding: 10px 20px;
-    border-radius: 50px;
+    padding: 10px 25px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 700;
     transition: background-color 0.3s ease;
-    white-space: nowrap; /* Impede que o texto quebre em telas pequenas */
 }
 
-.btn-whatsapp-header:hover {
+.btn-cta-header:hover {
     background-color: #20b056;
 }
 
@@ -270,7 +269,7 @@ body {
     .logo {
         max-height: 35px; /* Logo um pouco menor */
     }
-    .btn-whatsapp-header {
+    .btn-cta-header {
         font-size: 0.8rem;
         padding: 8px 15px;
     }
